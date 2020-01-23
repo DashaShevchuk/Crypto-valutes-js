@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    flex-direction:row;
+}
+#tbl{
+    margin: 5px;
+    position: static;
+}
+#srch{
+    margin: 5px;
+}
+tr:hover{
+    border-top: 2px solid #343a40;
+    border-bottom: 2px solid #343a40;
+}
+.delete{
+background-color: #343a40;
+color: white;
+border-radius: 10px;
+font-family: cursive;
+}
